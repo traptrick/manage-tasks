@@ -1,0 +1,64 @@
+.singleTodo {
+    width: 100%;
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.6rem 0 0.6rem;
+    margin-bottom: 0.3rem;
+}
+
+.editInputTag{
+    outline: none;
+    border: none;
+    height: 1.4rem;
+    border-radius: 6px;
+    background: none;
+    font-weight: bold;
+    width: 35vw;
+}
+
+.todoActionBtns {
+    cursor: pointer;
+}
+
+.tabPageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.clearAllBtn {
+    width: 4rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin:  0.1rem 0 0.3rem 0;
+    background-color: aliceblue;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+@media screen and (max-width: 1327px) {
+    .editInputTag {
+      /* width: 20rem; */
+      width: 30vw;
+    }
+}
+@media screen and (max-width: 950px) {
+    .editInputTag {
+      width: 15rem;
+    }
+}
+@media screen and (max-width: 787px) {
+    .editInputTag {
+        width: 27vw;
+    }
+}
+@media screen and (max-width: 666px) {
+    .editInputTag{
+        width: 45vw;
+    }
+}

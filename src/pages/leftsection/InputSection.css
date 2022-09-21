@@ -1,0 +1,48 @@
+.inputSectionPage {
+    color: black
+}
+
+
+.formCss {
+    display: flex;
+    flex-direction: column;
+}
+
+.formCss input {
+    margin-bottom: 10px;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    /* background-color: pink; */
+}
+
+.addBtn {
+    background-color: rgba(47, 85, 255, 0.74);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 5rem;
+    height: 2.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background-color: rgba(47, 85, 255, 0.459);
+}
+
+
+@media screen and (max-width: 666px) {
+    .formCss {
+        flex-direction: row;
+        gap: 1rem;
+        width: 90vw;
+    }
+    .addBtn {
+        width: 4rem;
+        height: 2rem;
+    }
+  }

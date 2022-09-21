@@ -1,0 +1,63 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.heading {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.bottom {
+  display: flex;
+  width: 100%;
+  height: 92%;
+}
+
+.inputSection {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displaySection {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 666px) {
+  .App{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  .heading {
+    height: 5%;
+    font-size: large;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .inputSection {
+    position: relative;
+    left: 19px;
+  }
+  .displaySection {
+    width: 95%;
+    height: 100%;
+    overflow-y: hidden;
+  }
+}
